@@ -1,0 +1,21 @@
+/*Nav Bar Styling
+====================*/
+.second-side-bar {
+  height: 100%;
+  width: auto;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  a {
+    margin: 15px 0;
+    padding-bottom: 15px;
+    // text-align: left;
+    // padding-right: 30px;
+    font-size:12px;
+  }
+}
