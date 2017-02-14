@@ -1,6 +1,11 @@
-@import "partials/__globals";
-// $badass: blue;
-body {
-  margin: 0;
-  background-color: $badass;
-}
+// Mixins
+@import "partials/__reset.scss";          // Boilerplate globals
+@import "partials/__mixins.scss";         // SASS Mixins
+// @import "partials/__fonts-segoe";         // Fonts: Segoe UI
+
+// Globals
+@import "partials/__variables";           // Global variables.
+@import "partials/__globals";             // Globals styling.
+
+// Individual Pages
+@import "partials/__navigation";          // Navigation styling
