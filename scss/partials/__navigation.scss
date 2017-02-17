@@ -1,21 +1,65 @@
-/*Nav Bar Styling
-====================*/
-.second-side-bar {
-  height: 100%;
-  width: auto;
-  position: fixed;
-  z-index: 1;
-  top: 100px;
-  left: 0;
-  background-color: black;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  a {
-    margin: 15px 0;
-    padding-bottom: 15px;
-    // text-align: left;
-    // padding-right: 30px;
-    font-size:12px;
+// .sidenav {
+//   height: 100%;
+//   // width: 100%;
+//   position: fixed;
+//   z-index: 1;
+//   top: 0;
+//   padding-left: 30px;
+//   padding-top: 400px;
+// }
+
+.site-sidebar  {
+    display: block;
+    padding: 0px 2.8em 78px;
+    line-height: 3;
+    position: fixed;
+    z-index: 5;
+    text-align: left;
+    color: #aaa;
+    text-decoration: none;
+    font-weight: 200!important;
+    font-family: din-light,sans-serif;
+    font-family: "Helvetica Neue",helvetica,sans-serif;
+    text-transform: uppercase;
+    -webkit-transition: all .15s;
+    transition: all .15s;
   }
-}
+//     nav ul li {
+//       list-style: none;
+//       display: block;
+//       margin: 0px;
+//       padding-top: 15px;
+//       // padding-bottom: 5px;
+//       // border-top: 1px solid #272727;
+//       // max-width:200px;
+//       // position: relative;
+//     }
+// }
+// .inner {
+//   position: fixed;
+//   top: 250px;
+//   a {
+//     font-size: 14px;
+//   }
+// }
+//
+// li {
+//   padding-left: 124px;
+//   // border: 1px solid #272727;
+//   max-width:200px;
+//
+// }
+// // SEARCH BAR BOOTSTRAP
+// .custom-search-form {
+//     margin:0;
+//     margin-top: 65px;
+//     padding: 0;
+//     position: absolute;
+//     bottom: 341px;
+//     left: 47px;
+//     z-index: 3;
+// }
+//
+// .search-query:focus + button {
+//     z-index: 3;
+// }

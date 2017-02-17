@@ -35,24 +35,79 @@ table {
 /** Media Query Mixins, Breakpoints **/
 /* Globals
 *************************************************/
-body {
-  margin: 0;
-  background-color: blue; }
+/* Globals
+*************************************************/
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
 
-/*Nav Bar Styling
-====================*/
-.second-side-bar {
+body {
+  background: #fff; }
+
+.content-panel {
+  width: 100%;
+  max-width: 1368px;
+  margin: 0 auto;
+  border: 2px solid red; }
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
   height: 100%;
-  width: auto;
-  position: fixed;
-  z-index: 1;
+  margin: 0 auto -142px;
+  /* the bottom margin is the negative value of the footer's height */ }
+
+.footer {
+  height: 142px;
+  /* .push must be the same height as .footer */ }
+
+.inner_hero {
+  position: relative;
+  background-color: #fffce6; }
+  .inner_hero h1 {
+    position: absolute;
+    font-size: 2.5rem;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    margin: 50px 0 0 50px;
+    padding-left: 33px; }
+    .inner_hero h1 span {
+      display: block;
+      padding-left: 150px;
+      line-height: .5;
+      font-size: 8rem;
+      color: #fff;
+      font-family: 'Mr Dafoe', cursive; }
+
+.hero_img {
+  z-index: -1;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 100%;
+  height: 500px; }
+
+.featured_img {
+  position: relative;
   top: 100px;
-  left: 0;
-  background-color: black;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px; }
-  .second-side-bar a {
-    margin: 15px 0;
-    padding-bottom: 15px;
-    font-size: 12px; }
+  left: 527px;
+  width: 60%;
+  height: 500px;
+  float: left; }
+
+.site-sidebar {
+  display: block;
+  padding: 0px 2.8em 78px;
+  line-height: 3;
+  position: fixed;
+  z-index: 5;
+  text-align: left;
+  color: #aaa;
+  text-decoration: none;
+  font-weight: 200 !important;
+  font-family: din-light,sans-serif;
+  font-family: "Helvetica Neue",helvetica,sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all .15s;
+  transition: all .15s; }

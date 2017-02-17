@@ -1,0 +1,59 @@
+$brandon: "Brandon Grotesque", Verdana, Arial, sans-serif;
+@font-face {
+  font-family: "Brandon Grotesque";
+  src:  url("fonts/Brandon_blk.woff"),
+        url("fonts/Brandon_blk.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src:  url("fonts/Brandon_bld.woff"),
+        url("fonts/Brandon_bld.ttf");
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src:  url("fonts/Brandon_med.woff"),
+        url("fonts/Brandon_med.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src:  url("fonts/Brandon_reg.woff"),
+        url("fonts/Brandon_reg.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src:  url("fonts/Brandon_light.woff"),
+        url("fonts/Brandon_light.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src:  url("fonts/Brandon_thin.woff"),
+        url("fonts/Brandon_thin.ttf");
+  font-weight: 100;
+}
+
+
+$noe: "Noe Display Bold", "century-old-style-std", "Minion Pro", "Times New Roman", serif;
+@font-face {
+  font-family: "Noe Display Bold";
+  src:  url("fonts/Noe Display Bold.woff"),
+        url("fonts/Noe Display Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Century Old Style Std";
+  src:  url("fonts/Noe Display Bold.woff")
+        url("fonts/Noe Display Bold.ttf");
+  font-weight: 700;
+}
