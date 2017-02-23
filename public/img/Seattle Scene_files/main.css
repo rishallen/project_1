@@ -58,6 +58,11 @@ body {
   margin: 0 auto -100px;
   /* the bottom margin is the negative value of the bottom's height */ }
 
+.bottom, footer {
+  height: 100px;
+  /* .push must be the same height as .footer */
+  padding-top: 100px; }
+
 .inner_hero {
   position: relative;
   background-color: #fffce6; }
@@ -92,6 +97,25 @@ body {
   height: 500px;
   float: left; }
 
+.bottom {
+  float: left;
+  padding-left: 17px;
+  color: red; }
+
+footer {
+  margin-left: 15%;
+  font-family: 'bgMed',arial,helvetica,sans-serif;
+  font-size: 0.6em;
+  color: #fff;
+  height: 70px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 85%;
+  z-index: 15;
+  text-transform: uppercase;
+  background: black; }
+
 .site-sidebar {
   position: fixed;
   display: block;
@@ -120,16 +144,3 @@ nav ul li {
     font-size: 14px;
     color: #fff;
     padding: 0px 5.8em 0px; }
-
-#footer-content {
-  overflow: auto;
-  height: 100%;
-  letter-spacing: 0.11em;
-  padding-top: 100px; }
-
-#footer-content #copyright {
-  float: left;
-  margin: 30px 0px 0px 3%; }
-
-#copyright p {
-  line-height: 1.7em; }
